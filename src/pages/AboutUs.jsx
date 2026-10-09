@@ -334,14 +334,14 @@ export default function AboutUs() {
     { name: "Bajaj", logo: bajajLogo },
     { name: "Tata", logo: tataLogo },
     { name: "DLF", logo: dlfLogo },
-    { name: "MG Motor", logo: mgLogo },
-    { name: "Amity Online", logo: amityLogo },
-    { name: "Sirca Paints", logo: sircaLogo },
-    { name: "Vega", logo: vegaLogo },
-    { name: "XONN", logo: xonLogo },
-    { name: "Metso", logo: metsoLogo },
-    { name: "Jakson Solar", logo: jaksonLogo },
-    { name: "Omaxe", logo: omaxeLogo },
+    // { name: "MG Motor", logo: mgLogo },
+    // { name: "Amity Online", logo: amityLogo },
+    // { name: "Sirca Paints", logo: sircaLogo },
+    // { name: "Vega", logo: vegaLogo },
+    // { name: "XONN", logo: xonLogo },
+    // { name: "Metso", logo: metsoLogo },
+    // { name: "Jakson Solar", logo: jaksonLogo },
+    // { name: "Omaxe", logo: omaxeLogo },
   ];
 
   return (
@@ -553,7 +553,8 @@ export default function AboutUs() {
               <div className="space-y-3 text-slate-600 text-sm sm:text-base leading-relaxed">
                 <p>
                   We believe effective digital solutions are created when the
-                  right strategy, creative thinking and technology work together.
+                  right strategy, creative thinking and technology work
+                  together.
                 </p>
                 <p>
                   Our approach begins with understanding the business objective
@@ -914,8 +915,8 @@ export default function AboutUs() {
                   </p>
                   <p>
                     Our focus is not simply on completing a digital requirement,
-                    but on becoming a dependable partner businesses can work with
-                    as their digital needs continue to evolve.
+                    but on becoming a dependable partner businesses can work
+                    with as their digital needs continue to evolve.
                   </p>
                 </div>
               </div>
@@ -1016,10 +1017,10 @@ export default function AboutUs() {
             </h2>
 
             <p className="text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
-              Whether you’re looking to strengthen your digital presence, build a
-              new digital solution or explore opportunities to grow your business
-              online, we’d be happy to understand your requirements and discuss
-              how Silgate Digital can support you.
+              Whether you’re looking to strengthen your digital presence, build
+              a new digital solution or explore opportunities to grow your
+              business online, we’d be happy to understand your requirements and
+              discuss how Silgate Digital can support you.
             </p>
 
             <div className="pt-3 flex flex-col sm:flex-row items-center justify-center gap-4">
