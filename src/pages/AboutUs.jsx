@@ -113,6 +113,13 @@ export default function AboutUs() {
                 thinking, creative ideas and technology expertise to deliver
                 solutions that address real business requirements.
               </p>
+              <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+                Our approach begins with understanding the business, its audience and
+                objectives before defining the right digital direction.From building a
+                strong digital foundation to improving visibility, engagement and growth,
+                we work closely with our clients as an extended digital partner—bringing together
+                the right capabilities to support their evolving digital needs
+              </p>
             </div>
 
             {/* Right Image with Orange Corner Accent */}
@@ -245,9 +252,8 @@ export default function AboutUs() {
                 Strategy, Creativity and Technology for Real Business Growth
               </h2>
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-xl">
-                We bring together strategic thinking, creative ideas and
-                technical expertise to build digital solutions that create
-                measurable business value.
+                We believe effective digital solutions are created when the right strategy, 
+                creative thinking and technology work together.
               </p>
             </div>
 
@@ -452,8 +458,9 @@ export default function AboutUs() {
                   Our Mission
                 </h3>
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-                  To help businesses build stronger digital presence through
-                  technology, marketing and creative solutions.
+                  Our mission is to understand our clients’ business needs and deliver practical, 
+                  customized and scalable digital solutions that strengthen their online presence, 
+                  improve audience engagement and support sustainable business growth.
                 </p>
               </div>
             </div>

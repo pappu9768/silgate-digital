@@ -130,7 +130,7 @@ export const services = [
     visualLeft: false, // 58% content / 42% visual
     bgClass: "bg-[#F0F5FA]",
     link: "/services/seo-services",
-    linkText: "Explore SEO",
+    linkText: "Explore SEO Services",
   },
 
   // ================= SECTION 5 — SOCIAL MEDIA MANAGEMENT =================
