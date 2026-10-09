@@ -114,11 +114,12 @@ export default function AboutUs() {
                 solutions that address real business requirements.
               </p>
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-                Our approach begins with understanding the business, its audience and
-                objectives before defining the right digital direction.From building a
-                strong digital foundation to improving visibility, engagement and growth,
-                we work closely with our clients as an extended digital partner—bringing together
-                the right capabilities to support their evolving digital needs
+                Our approach begins with understanding the business, its
+                audience and objectives before defining the right digital
+                direction.From building a strong digital foundation to improving
+                visibility, engagement and growth, we work closely with our
+                clients as an extended digital partner—bringing together the
+                right capabilities to support their evolving digital needs
               </p>
             </div>
 
@@ -155,9 +156,15 @@ export default function AboutUs() {
                 A Journey of Growth, Built on Trust and Delivery
               </h2>
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-xl">
-                Over the years, we have had the opportunity to work with diverse
-                businesses, deliver meaningful digital solutions and build
-                long-term relationships.
+                Over the years, we have had the opportunity to work with
+                businesses across diverse industries, delivering digital
+                solutions and building long-term relationships.
+              </p>
+              <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-xl">
+                Our journey continues to be driven by evolving technology,
+                changing digital trends and one consistent objective—helping
+                businesses strengthen their digital presence through practical
+                and effective solutions.
               </p>
             </div>
 
@@ -252,8 +259,18 @@ export default function AboutUs() {
                 Strategy, Creativity and Technology for Real Business Growth
               </h2>
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-xl">
-                We believe effective digital solutions are created when the right strategy, 
-                creative thinking and technology work together.
+                We believe effective digital solutions are created when the
+                right strategy, creative thinking and technology work together.
+              </p>
+              <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-xl">
+                Our approach begins with understanding the business objective
+                and audience. We then combine strategic direction, creative
+                execution and the right technology to build digital solutions
+                that are relevant, practical and scalable.
+              </p>
+              <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-xl">
+                Every initiative is focused on creating meaningful digital
+                experiences while supporting measurable business objectives.
               </p>
             </div>
 
@@ -458,9 +475,10 @@ export default function AboutUs() {
                   Our Mission
                 </h3>
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-                  Our mission is to understand our clients’ business needs and deliver practical, 
-                  customized and scalable digital solutions that strengthen their online presence, 
-                  improve audience engagement and support sustainable business growth.
+                  Our mission is to understand our clients’ business needs and
+                  deliver practical, customized and scalable digital solutions
+                  that strengthen their online presence, improve audience
+                  engagement and support sustainable business growth.
                 </p>
               </div>
             </div>

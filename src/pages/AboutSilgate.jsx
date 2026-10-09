@@ -201,13 +201,6 @@ const articles = [
 ];
 
 export default function About() {
-  const handleScrollToCapabilities = () => {
-    const el = document.getElementById("capabilities");
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <div className="min-h-screen flex flex-col bg-white">
       {/* <Navbar /> */}
@@ -250,10 +243,10 @@ export default function About() {
 
                 <div className="pt-1 sm:pt-2">
                   <Button
+                    to="/about"
                     variant="primary"
                     size="lg"
                     icon="right"
-                    onClick={handleScrollToCapabilities}
                     className="w-full sm:w-auto shadow-md hover:shadow-orange-500/20"
                   >
                     Know More About Us
