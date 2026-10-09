@@ -18,6 +18,7 @@ import OtherCompanies from "./pages/OtherCompanies";
 import Products from "./pages/Products";
 import InfluencerPortfolio from "./pages/InfluencerPortfolio";
 import Showcase from "./pages/Showcase";
+import Industries from "./pages/Industries";
 import Faq from "./pages/Faq";
 import Sitemap from "./pages/Sitemap";
 import ThankYou from "./pages/ThankYou";
@@ -112,6 +113,12 @@ export default function AppContent() {
         {/* Services Hub */}
         <Route path="/services" element={<Services />} />
         <Route path="/services/" element={<Services />} />
+
+        {/* Industries Hub */}
+        <Route path="/industries" element={<Industries />} />
+        <Route path="/industries/" element={<Industries />} />
+        <Route path="/industry" element={<Industries />} />
+        <Route path="/industry/" element={<Industries />} />
 
         {/* Contact & Careers */}
         <Route path="/contact" element={<Contact />} />

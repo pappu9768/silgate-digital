@@ -534,9 +534,9 @@ export default function Navbar() {
               onMouseEnter={() => setActiveDropdown("industry")}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button
-                type="button"
-                className="
+              <Link
+                to="/industries"
+                className={`
                   flex
                   items-center
                   gap-1
@@ -544,16 +544,20 @@ export default function Navbar() {
                   py-2
                   text-sm
                   font-medium
-                  text-zinc-700
-                  hover:text-[#00529B]
-                  hover:bg-zinc-50
                   rounded-lg
                   transition-colors
-                "
+                  ${
+                    isActive("/industries") ||
+                    isActive("/industry") ||
+                    isParentActive("/industries")
+                      ? "text-[#00529B] font-semibold"
+                      : "text-zinc-700 hover:text-[#00529B] hover:bg-zinc-50"
+                  }
+                `}
               >
                 Industries
                 <ChevronDown className="w-3.5 h-3.5" />
-              </button>
+              </Link>
 
               {activeDropdown === "industry" && (
                 <div
@@ -636,6 +640,38 @@ export default function Navbar() {
                         {label}
                       </Link>
                     ))}
+                  </div>
+
+                  <div
+                    className="
+                    mt-4
+                    pt-3
+                    border-t
+                    border-zinc-100
+                    flex
+                    items-center
+                    justify-between
+                    gap-4
+                  "
+                  >
+                    <span className="text-xs text-zinc-500">
+                      Explore all industry solutions.
+                    </span>
+
+                    <Link
+                      to="/industries"
+                      className="
+                        text-xs
+                        font-semibold
+                        text-[#00529B]
+                        flex
+                        items-center
+                        gap-1
+                      "
+                    >
+                      View All Industries
+                      <ArrowUpRight className="w-3.5 h-3.5" />
+                    </Link>
                   </div>
                 </div>
               )}
@@ -1337,6 +1373,20 @@ export default function Navbar() {
                       space-y-1
                     "
                   >
+                    <Link
+                      to="/industries"
+                      onClick={closeMobileMenu}
+                      className="
+                        block
+                        py-2
+                        font-bold
+                        text-[#00529B]
+                        border-b
+                        border-zinc-200
+                      "
+                    >
+                      All Industries
+                    </Link>
                     {[
                       ["/automotive-digital-marketing-agency", "Automotive"],
                       [
